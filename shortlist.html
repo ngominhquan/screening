@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>Shortlisted applicants – 7 Fiddlers Green</title>
+  <meta name="description" content="Follow-up information for shortlisted rental applicants at 7 Fiddlers Green, Dartmouth.">
+  <link rel="stylesheet" href="shortlist.css">
+  <script src="shortlist.js" defer></script>
+</head>
+<body>
+<main>
+  <header>
+    <span class="eyebrow">7 Fiddlers Green · Dartmouth</span>
+    <h1>Let’s arrange your screening invitation.</h1>
+    <p class="intro">Please complete this follow-up only if the landlord has invited you. Confirm your name and email so the landlord can arrange an online screening invitation. Each adult applying to sign the lease should respond separately.</p>
+    <ol class="steps" aria-label="Application stages">
+      <li>1. Initial application</li>
+      <li><strong aria-current="step">2. Shortlist follow-up</strong></li>
+      <li>3. Screening &amp; decision</li>
+    </ol>
+  </header>
+
+  <aside class="notice" aria-labelledby="before-title">
+    <h2 id="before-title">Before you begin</h2>
+    <p>Enter your name and contact details here. The landlord will arrange a separate screening invitation so you can provide your date of birth, address and any required identity-verification details directly to the screening provider.</p>
+    <p>No credit check is run by this page. Review the provider’s privacy notice and credit-check authorization before continuing with screening. Contact the landlord through your existing conversation if you have questions.</p>
+  </aside>
+
+  <noscript><p class="notice">JavaScript is needed to submit this form. Please enable it or contact the landlord through your existing conversation.</p></noscript>
+
+  <form id="shortlist" novalidate aria-describedby="required-note">
+    <!-- Public Web3Forms key. This page does not perform a credit check. -->
+    <input type="hidden" name="access_key" value="d31180b7-3bc1-483b-9044-c8e15dce6e81">
+    <input type="hidden" name="subject" value="Shortlist follow-up – 7 Fiddlers Green">
+    <input type="hidden" name="from_name" value="7 Fiddlers Green Shortlist">
+    <input type="hidden" name="Property" value="7 Fiddlers Green, Dartmouth NS">
+    <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" hidden>
+    <p id="required-note" class="hint">All fields are required unless marked optional.</p>
+
+    <fieldset>
+      <legend>Your contact details</legend>
+      <div class="field">
+        <label for="legal-name">Full legal name</label>
+        <input id="legal-name" name="Full legal name" autocomplete="name" maxlength="150" required aria-describedby="name-hint">
+        <span id="name-hint" class="hint">Use the name on your identification and credit file.</span>
+      </div>
+      <div class="grid">
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" maxlength="254" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone <span class="optional">(optional)</span></label>
+          <input id="phone" name="Phone" type="tel" autocomplete="tel" maxlength="40">
+        </div>
+      </div>
+    </fieldset>
+
+    <section class="privacy" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">How your information will be used</h2>
+      <ul>
+        <li>Your name and contact details are collected to match this request to your rental application and arrange a screening invitation for 7 Fiddlers Green.</li>
+        <li>Web3Forms processes this submission and delivers it to the landlord by email. The landlord will tell you which screening provider is being used before sharing your contact details with that provider to send an invitation.</li>
+        <li>This request does not authorize a credit check, reserve the property or confirm approval. The screening provider will collect the information and specific consent it needs before a credit report is requested.</li>
+        <li>For questions, corrections, access to your information or to withdraw permission before a check is ordered, contact the landlord through your existing conversation.</li>
+      </ul>
+    </section>
+
+    <fieldset>
+      <legend>Review &amp; permission</legend>
+      <p>You may be asked to show photo ID to confirm your identity. Please do not send ID photos or identification numbers with this form.</p>
+      <div class="consent">
+        <input id="accuracy" name="Information confirmed accurate" type="checkbox" value="Yes" required>
+        <label for="accuracy">I confirm these are my own details and they are accurate.</label>
+      </div>
+      <div class="consent">
+        <input id="delivery-consent" name="Email delivery consent" type="checkbox" value="Yes" required>
+        <label for="delivery-consent">I have read how my information will be used and agree to send my name and contact details through Web3Forms to the landlord by email.</label>
+      </div>
+      <div class="consent">
+        <input id="invitation-consent" name="Screening invitation permission" type="checkbox" value="Yes" required>
+        <label id="invitation-consent-text" for="invitation-consent">I would like the landlord to contact me to arrange an online screening invitation. I understand that I will be asked for separate credit-check consent through the screening provider.</label>
+      </div>
+    </fieldset>
+
+    <button id="submit" type="submit">Request screening invitation</button>
+    <p class="hint">Do not send your date of birth, a SIN, driver’s licence number, passport number or ID photo. If you have questions, contact the landlord before submitting.</p>
+  </form>
+
+  <div id="result" class="message" role="status" aria-live="polite" tabindex="-1" hidden></div>
+  <footer>
+    <p>7 Fiddlers Green, Colby Village, Dartmouth, Nova Scotia</p>
+    <p>Looking for the first step? <a href="index.html">Return to the rental application</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
